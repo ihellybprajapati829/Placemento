@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placemento</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!-- Favicons -->
+    <link href="./img/Favicon.png" rel="icon">
+    <link href="./img/Favicon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="./img/Logo.png" alt=""></a>
+        <div class="group">
+            <ul class="navigation">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./findjobs.html">Find Jobs</a></li>
+                <li><a href="./company_reviews.html">Company Reviews</a></li>
+                <li><a href="#" id="logout">Log Out</a></li>
+            </ul>
+            <ul class="action">
+                <li><a href="./notification.html"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+                <li><a href="./profile.html"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                <li><a href="#" id="logout">Log Out</a></li>
+                <div class="menuToggle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+            </ul>
+        </div>
+    </header>
+
+    <!--Search Container-->
+    <div class="banner">
+        <br>
+        <div class="bg">
+            <div class="content">
+                <h1 align="center">Find Your Dream Job.</h1>
+            </div>
+            <div class="searchBox">
+                <div class="inputBox">
+                    <p>Search job titles, keyword or company</p>
+                    <input type="text" placeholder="Ex. Designer, Web Developer">
+                </div>
+                <div class="inputBox">
+                    <p>Location</p>
+                    <input type="text" placeholder="Ex. Ahmedabad, Gujarat">
+                </div>
+                <div class="inputBox">
+                    <p class="white">_</p>
+                    <input type="submit" value="Search">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Jobs -->
+    <div class="rjobs">
+        <div class="container">
+            <div class="container" id="fjobs">
+                <div>
+                    <h2 align="center">Recent Jobs</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <!-- single-job-content -->
+                    <div class="single-job-items mb-30">
+                        <div class="job-items">
+                            <div class="company-img">
+                                <a href="#"><img src="./img/Companies/Byju's.jpg" alt="Company_Name"></a>
+                                <!--Company logo-->
+                            </div>
+                            <div class="job-tittle">
+                                <a href="#">
+                                    <h4>Front End Web Developer</h4>
+                                    <!--Job Title-->
+                                </a>
+                                <ul>
+                                    <!--Company Location-->
+                                    <li><i class="fa fa-map-marker"></i> Hyderabad, India</li>
+                                </ul>
+                                <ul>
+                                    <!--Experience-->
+                                    <li>Experience : 3 to 6 Years</li>
+                                    <!--Job Type-->
+                                    <li>Job Type : Full Time</li>
+                                    <!--Salary Range-->
+                                    <li>Salary Range : ₹ 5,00,000 - 8,00,000</li>
+                                </ul>
+                                <ul>
+                                    <!--Description-->
+                                    <li>Description : Knowledge of UI frameworks such as Bootstrap less will ...</li>
+                                </ul>
+                                <ul style="float: right;">
+                                    <!--Time-->
+                                    <li style="color: #000;">5 Hours ago.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-job-items mb-30">
+                        <div class="job-items">
+                            <div class="company-img">
+                                <a href="#"><img src="./img/Companies/Wipro.jpg" alt="Company_Name"></a>
+                                <!--Company logo-->
+                            </div>
+                            <div class="job-tittle">
+                                <a href="#">
+                                    <h4>UI UX Designer</h4>
+                                    <!--Job Title-->
+                                </a>
+                                <ul>
+                                    <!--Company Location-->
+                                    <li><i class="fa fa-map-marker"></i>Ahmedabad, Gujarat, India</li>
+                                </ul>
+                                <ul>
+                                    <!--Experience-->
+                                    <li>Experience : 3 to 5 Years</li>
+                                    <!--Job Type-->
+                                    <li>Job Type : Part Time</li>
+                                    <!--Salary Range-->
+                                    <li>Salary Range : ₹ 1,00,000 - 2,00,000</li>
+                                </ul>
+                                <ul>
+                                    <!--Description-->
+                                    <li>Description : Illustrate design ideas using storyboards, process flows and
+                                        sitemaps ...</li>
+                                </ul>
+                                <ul style="float: right;">
+                                    <!--Time-->
+                                    <li style="color: #000;">7 Days ago.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-job-items mb-30">
+                        <div class="job-items">
+                            <div class="company-img">
+                                <a href="#"><img src="./img/Companies/Cognizant.jpg" alt="Company_Name"></a>
+                                <!--Company logo-->
+                            </div>
+                            <div class="job-tittle">
+                                <a href="#">
+                                    <h4>Data Scientist: Artificial Intelligence</h4>
+                                    <!--Job Title-->
+                                </a>
+                                <ul>
+                                    <!--Company Location-->
+                                    <li><i class="fa fa-map-marker"></i>Bengaluru, India</li>
+                                </ul>
+                                <ul>
+                                    <!--Experience-->
+                                    <li>Experience : 6 to 7 Years</li>
+                                    <!--Job Type-->
+                                    <li>Job Type : Full Time</li>
+                                    <!--Salary Range-->
+                                    <li>Salary Range : ₹ 4,00,000 - 5,00,000</li>
+                                </ul>
+                                <ul>
+                                    <!--Description-->
+                                    <li>Description : Working knowledge and deep understanding of all major aspects ...
+                                    </li>
+                                </ul>
+                                <ul style="float: right;">
+                                    <!--Time-->
+                                    <li style="color: #000;">13 Days ago.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Browse Jobs -->
+    <div class="container">
+        <div>
+            <h2 align="center">Browse From Over <span style="color:#737cfd;">2000+</span> Jobs & Categories</h2>
+        </div>
+    </div>
+    <div class="container mt-5" id="bjobs">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 item">
+                <div class="card item-card card-block">
+                    <img src="./img/Categories/creativity.png" alt="">
+                    <h5 class="item-card-title mt-3 mb-3">Design & Creative</h5>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 item">
+                <div class="card item-card card-block">
+                    <img src="./img/Categories/coding.png" alt="">
+                    <h5 class="item-card-title  mt-3 mb-3">Development</h5>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 item">
+                <div class="card item-card card-block">
+                    <img src="./img/Categories/writer.png" alt="">
+                    <h5 class="item-card-title  mt-3 mb-3">Content Writer</h5>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 item">
+                <div class="card item-card card-block">
+                    <img src="./img/Categories/channel.png" alt="">
+                    <h5 align="center" class="item-card-title  mt-3 mb-3">Sales & Marketing</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="container">
+        <div>
+            <h2 align="center">Finds million of Jobs and achieve Success</h2>
+            <p align="center">Finds a job and achieve success and a high salary is not the value. But your work is most
+                important your
+                achieve success. You can work according to your achieve success.</p>
+        </div>
+    </div>
+
+    <!-- Apply Job -->
+    <div class="container">
+        <div>
+            <h2 align="center">How to Apply for Job?</h2>
+            <p align="center">Application Process</p>
+        </div>
+    </div>
+    <div class="container mt-5" id="ajobs">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 item">
+                <div class="card item-card card-block">
+                    <h5 class="item-card-title mt-3 mb-3">1. Search
+                        a job</h5>
+                    <p align="center">Find jobs that will suits your skills and expectations.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 item">
+                <div class="card item-card card-block">
+                    <h5 class="item-card-title  mt-3 mb-3">2. Apply
+                        for a job</h5>
+                    <p align="center">Create a resume and apply for that job.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 item">
+                <div class="card item-card card-block">
+                    <h5 class="item-card-title  mt-3 mb-3">3. Get
+                        your job</h5>
+                    <p align="center">Give Interview according to companies and get your job on basis of your skills.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Companies -->
+    <div class="container" id="companies">
+        <div class="image-right">
+            <img src="./img/Companies.png" alt="Companies" />
+            <div>
+                <h2>We are trusted by more than <span style="color:#737cfd;">800+</span> company</h2>
+                <br>
+                <p>It is the platform where, Job seekers apply to hundreds of jobs during their search. To make the most
+                    of your time, you'll want
+                    to select the job search website with jobs you are interested in and qualified for. And also
+                    Recruiters and human resources professionals choose where to post their open jobs.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <br><br><br>
+
+    <footer>
+        <!-- Footer -->
+        <div class="footer-area footer-bg footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <div class="footer-tittle">
+                                    <h4>About Us</h4>
+                                    <hr style="width: 230px;">
+                                    <div class="footer-pera">
+                                        <p>Finds a job and achieve success and a high salary is not the value. But your
+                                            work is most
+                                            important your
+                                            achieve success.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Contact Info</h4>
+                                <hr style="width: 230px;">
+                                <p><span style="font-weight: 600;">Address :</span> Ahmedabad, Gujarat, India.</p>
+                                <p><span style="font-weight: 600;">Phone :</span> +91 1234567890</p>
+                                <p><span style="font-weight: 600;">E-mail : </span><a href="#">Placemento@gmail.com</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5" id="implinks">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Important Link</h4>
+                                <hr style="width: 230px;">
+                                <p><a href="#">About Us</a><br>
+                                    <a href="#">Contact Us</a><br>
+                                    <a href="#">Services</a><br>
+                                    <a href="#">News & Blogs</a><br>
+                                    <a href="#">Our Features</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Newsletter</h4>
+                                <hr style="width: 230px;">
+                                <div class="footer-pera footer-pera2">
+                                    <p>Subscribe newsletter to get updates about new jobs.</p>
+                                    <div class="footer-form">
+                                        <form>
+                                            <input type="email" name="email" placeholder="Email Address">
+                                            <div class="form-icon">
+                                                <a href="#">Send</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy-right">
+            <p>
+                Copyright © 2021, Placemento | All rights reserved.
+            </p>
+        </div>
+        <!-- Footer -->
+    </footer>
+    <script>
+        let menuToggle = document.querySelector('.menuToggle');
+        let navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function () {
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>

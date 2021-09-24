@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placemento</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/findjobs.css">
+
+    <!-- Favicons -->
+    <link href="./img/Favicon.png" rel="icon">
+    <link href="./img/Favicon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="./img/Logo.png" alt=""></a>
+        <div class="group">
+            <ul class="navigation">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./findjobs.html">Find Jobs</a></li>
+                <li><a href="./company_reviews.html">Company Reviews</a></li>
+                <li><a href="#" id="logout">Log Out</a></li>
+            </ul>
+            <ul class="action">
+                <li><a href="./notification.html"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+                <li><a href="./profile.html"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                <li><a href="#" id="logout">Log Out</a></li>
+                <div class="menuToggle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Title -->
+    <div class="opages">
+        <div class="banner">
+            <div class="bg">
+                <div class="content">
+                    <h1 align="center">Find Jobs.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="job-listing-area pb-120" id="filters">
+        <div class="container">
+            <div class="row">
+                <!-- Filters -->
+                <div class="col-xl-3 col-lg-3 col-md-4">
+                    <div class="row" id="ftitle">
+                        <div class="col-12">
+                            <h4><img src="./img/Bars.png" style="width: 35px;margin:0% 4% 0% 0%;height: auto;" alt="">
+                                Filter Jobs</h4>
+                        </div>
+                    </div>
+
+                    <!-- Job Category Listing start -->
+                    <div class="job-category-listing mb-50">
+                        <div class="single-listing">
+                            <!-- Job Titles -->
+                            <div class="fliter-titles">
+                                <h5>Job Title</h5>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" placeholder="Ex. Designer, Web Developer" />
+                            </div>
+
+                            <!-- Location -->
+                            <div class="fliter-titles">
+                                <h5>Location</h5>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" placeholder="Ex. Ahmedabad, Gujarat" />
+                            </div>
+
+                            <!-- Salary -->
+                            <div class="single-listing">
+                                <div class="select-Categories pb-50">
+                                    <div class="fliter-titles">
+                                        <h5>Salary</h5>
+                                    </div>
+                                    <label class="container">0 - 3 Lakhs
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">3 - 6 Lakhs
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">6 - 10 Lakhs
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">More than 10 Lakhs
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- Job Type -->
+                            <div class="single-listing">
+                                <div class="select-Categories pb-50">
+                                    <div class="fliter-titles">
+                                        <h5>Job Type</h5>
+                                    </div>
+                                    <label class="container">Full Time
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Part Time
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Freelance
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- Experience -->
+                            <div class="single-listing">
+                                <div class="select-Categories pb-50">
+                                    <div class="fliter-titles">
+                                        <h5>Experience</h5>
+                                    </div>
+                                    <label class="container"> 1 - 2 Years
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container"> 2 - 4 Years
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container"> 4 - 6 Years
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container"> More than 6 Years
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <!-- Freshness -->
+                            <div class="single-listing">
+                                <div class="select-Categories pb-50">
+                                    <div class="fliter-titles">
+                                        <h5>Freshness</h5>
+                                    </div>
+                                    <label class="container"> Last One Day
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container"> Last 10 Days
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container"> Last 15 Days
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container"> Last 30 Days
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Job List -->
+                <div class="col-xl-9 col-lg-9 col-md-8">
+                    <div class="container">
+                        <!-- single-job-content -->
+                        <div class="single-job-items mb-30">
+                            <div class="job-items">
+                                <div class="company-img">
+                                    <a href="#"><img src="./img/Companies/Cognizant.jpg" alt="Company_Name"></a>
+                                    <!--Company logo-->
+                                </div>
+                                <div class="job-tittle">
+                                    <a href="#">
+                                        <h4>Data Scientist: Artificial Intelligence</h4>
+                                        <!--Job Title-->
+                                    </a>
+                                    <ul>
+                                        <!--Company Location-->
+                                        <li><i class="fa fa-map-marker"></i>Bengaluru, India</li>
+                                    </ul>
+                                    <ul>
+                                        <!--Experience-->
+                                        <li>Experience : 6 to 7 Years</li>
+                                        <!--Job Type-->
+                                        <li>Job Type : Full Time</li>
+                                        <!--Salary Range-->
+                                        <li>Salary Range : ₹ 4,00,000 - 5,00,000</li>
+                                    </ul>
+                                    <ul>
+                                        <!--Description-->
+                                        <li>Description : Working knowledge and deep understanding of all major aspects
+                                            ...
+                                        </li>
+                                    </ul>
+                                    <ul style="float: right;">
+                                        <!--Time-->
+                                        <li style="color: #000;">3 Days ago.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-job-items mb-30">
+                            <div class="job-items">
+                                <div class="company-img">
+                                    <a href="#"><img src="./img/Companies/Wipro.jpg" alt="Company_Name"></a>
+                                    <!--Company logo-->
+                                </div>
+                                <div class="job-tittle">
+                                    <a href="#">
+                                        <h4>UI UX Designer</h4>
+                                        <!--Job Title-->
+                                    </a>
+                                    <ul>
+                                        <!--Company Location-->
+                                        <li><i class="fa fa-map-marker"></i>Ahmedabad, Gujarat, India</li>
+                                    </ul>
+                                    <ul>
+                                        <!--Experience-->
+                                        <li>Experience : 3 to 5 Years</li>
+                                        <!--Job Type-->
+                                        <li>Job Type : Part Time</li>
+                                        <!--Salary Range-->
+                                        <li>Salary Range : ₹ 1,00,000 - 2,00,000</li>
+                                    </ul>
+                                    <ul>
+                                        <!--Description-->
+                                        <li>Description : Illustrate design ideas using storyboards, process flows and
+                                            sitemaps ...</li>
+                                    </ul>
+                                    <ul style="float: right;">
+                                        <!--Time-->
+                                        <li style="color: #000;">7 Days ago.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-job-items mb-30">
+                            <div class="job-items">
+                                <div class="company-img">
+                                    <a href="#"><img src="./img/Companies/Byju's.jpg" alt="Company_Name"></a>
+                                    <!--Company logo-->
+                                </div>
+                                <div class="job-tittle">
+                                    <a href="#">
+                                        <h4>Front End Web Developer</h4>
+                                        <!--Job Title-->
+                                    </a>
+                                    <ul>
+                                        <!--Company Location-->
+                                        <li><i class="fa fa-map-marker"></i> Hyderabad, India</li>
+                                    </ul>
+                                    <ul>
+                                        <!--Experience-->
+                                        <li>Experience : 3 to 6 Years</li>
+                                        <!--Job Type-->
+                                        <li>Job Type : Full Time</li>
+                                        <!--Salary Range-->
+                                        <li>Salary Range : ₹ 5,00,000 - 8,00,000</li>
+                                    </ul>
+                                    <ul>
+                                        <!--Description-->
+                                        <li>Description : Knowledge of UI frameworks such as Bootstrap less will ...
+                                        </li>
+                                    </ul>
+                                    <ul style="float: right;">
+                                        <!--Time-->
+                                        <li style="color: #000;">7 Days ago.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-job-items mb-30">
+                            <div class="job-items">
+                                <div class="company-img">
+                                    <a href="#"><img src="./img/Companies/Tata.png" alt="Company_Name"></a>
+                                    <!--Company logo-->
+                                </div>
+                                <div class="job-tittle">
+                                    <a href="#">
+                                        <h4>Front End Web Developer</h4>
+                                        <!--Job Title-->
+                                    </a>
+                                    <ul>
+                                        <!--Company Location-->
+                                        <li><i class="fa fa-map-marker"></i> Hyderabad, India</li>
+                                    </ul>
+                                    <ul>
+                                        <!--Experience-->
+                                        <li>Experience : 3 to 6 Years</li>
+                                        <!--Job Type-->
+                                        <li>Job Type : Full Time</li>
+                                        <!--Salary Range-->
+                                        <li>Salary Range : ₹ 5,00,000 - 8,00,000</li>
+                                    </ul>
+                                    <ul>
+                                        <!--Description-->
+                                        <li>Description : Knowledge of UI frameworks such as Bootstrap less will ...
+                                        </li>
+                                    </ul>
+                                    <ul style="float: right;">
+                                        <!--Time-->
+                                        <li style="color: #000;">12 Days ago.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-job-items mb-30">
+                            <div class="job-items">
+                                <div class="company-img">
+                                    <a href="#"><img src="./img/Companies/Cognizant.jpg" alt="Company_Name"></a>
+                                    <!--Company logo-->
+                                </div>
+                                <div class="job-tittle">
+                                    <a href="#">
+                                        <h4>Data Scientist: Artificial Intelligence</h4>
+                                        <!--Job Title-->
+                                    </a>
+                                    <ul>
+                                        <!--Company Location-->
+                                        <li><i class="fa fa-map-marker"></i>Bengaluru, India</li>
+                                    </ul>
+                                    <ul>
+                                        <!--Experience-->
+                                        <li>Experience : 6 to 7 Years</li>
+                                        <!--Job Type-->
+                                        <li>Job Type : Full Time</li>
+                                        <!--Salary Range-->
+                                        <li>Salary Range : ₹ 4,00,000 - 5,00,000</li>
+                                    </ul>
+                                    <ul>
+                                        <!--Description-->
+                                        <li>Description : Working knowledge and deep understanding of all major aspects
+                                            ...
+                                        </li>
+                                    </ul>
+                                    <ul style="float: right;">
+                                        <!--Time-->
+                                        <li style="color: #000;">15 Days ago.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br><br>
+
+    <footer>
+        <!-- Footer -->
+        <div class="footer-area footer-bg footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <div class="footer-tittle">
+                                    <h4>About Us</h4>
+                                    <hr style="width: 230px;">
+                                    <div class="footer-pera">
+                                        <p>Finds a job and achieve success and a high salary is not the value. But your
+                                            work is most
+                                            important your
+                                            achieve success.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Contact Info</h4>
+                                <hr style="width: 230px;">
+                                <p><span style="font-weight: 600;">Address :</span> Ahmedabad, Gujarat, India.</p>
+                                <p><span style="font-weight: 600;">Phone :</span> +91 1234567890</p>
+                                <p><span style="font-weight: 600;">E-mail : </span><a href="#">Placemento@gmail.com</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5" id="implinks">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Important Link</h4>
+                                <hr style="width: 230px;">
+                                <p><a href="#">About Us</a><br>
+                                    <a href="#">Contact Us</a><br>
+                                    <a href="#">Services</a><br>
+                                    <a href="#">News & Blogs</a><br>
+                                    <a href="#">Our Features</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Newsletter</h4>
+                                <hr style="width: 230px;">
+                                <div class="footer-pera footer-pera2">
+                                    <p>Subscribe newsletter to get updates about new jobs.</p>
+                                    <div class="footer-form">
+                                        <form>
+                                            <input type="email" name="email" placeholder="Email Address">
+                                            <div class="form-icon">
+                                                <a href="#">Send</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy-right">
+            <p>
+                Copyright © 2021, Placemento | All rights reserved.
+            </p>
+        </div>
+        <!-- Footer -->
+    </footer>
+    <script>
+        let menuToggle = document.querySelector('.menuToggle');
+        let navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function () {
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>

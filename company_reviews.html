@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placemento</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/findjobs.css">
+    <link rel="stylesheet" type="text/css" href="./css/company-reviews.css">
+
+    <!-- Favicons -->
+    <link href="./img/Favicon.png" rel="icon">
+    <link href="./img/Favicon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="./img/Logo.png" alt=""></a>
+        <div class="group">
+            <ul class="navigation">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./findjobs.html">Find Jobs</a></li>
+                <li><a href="./company_reviews.html">Company Reviews</a></li>
+                <li><a href="#" id="logout">Log Out</a></li>
+            </ul>
+            <ul class="action">
+                <li><a href="./notification.html"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+                <li><a href="./profile.html"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                <li><a href="#" id="logout">Log Out</a></li>
+                <div class="menuToggle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Titles -->
+    <div class="opages">
+        <div class="banner">
+            <div class="bg">
+                <div class="content">
+                    <h1 align="center">Company Reviews.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popular Companies -->
+    <div id="review-titles">
+        <div>
+            <h3 align="center" style="font-weight: 600;color: #15163a;">Popular Companies</h3>
+        </div>
+    </div>
+    <!-- Reviews -->
+    <section id="reviews">
+        <div class="review-container">
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="company-img">
+                            <img src="./img/Companies/Tata.png" alt="">
+                        </div>
+                        <div class="company-content">
+                            <strong>Tata Consultancy</strong>
+                            <span>IT Services & Consulting</span>
+                            <span style="margin-top: 10px;color: #808080;">10000+ employees</span>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <p style="float: right;color:#808080 ;">900+ reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="company-img">
+                            <img src="./img/Companies/Cognizant.jpg" alt="">
+                        </div>
+                        <div class="company-content">
+                            <strong>Cognizant</strong>
+                            <span>IT Services & Consulting</span>
+                            <span style="margin-top: 10px;color: #808080;">10000+ employees</span>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <p style="float: right;color:#808080 ;">800+ reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="company-img">
+                            <img src="./img/Companies/Wipro.jpg" alt="">
+                        </div>
+                        <div class="company-content">
+                            <strong>Wipro</strong>
+                            <span>IT Services & Consulting</span>
+                            <span style="margin-top: 10px;color: #808080;">8000+ employees</span>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <p style="float: right;color:#808080 ;">700 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="company-img">
+                            <img src="./img/Companies/Byju's.jpg" alt="">
+                        </div>
+                        <div class="company-content">
+                            <strong>Byju's</strong>
+                            <span>Education</span>
+                            <span style="margin-top: 10px;color: #808080;">5000+ employees</span>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <p style="float: right;color:#808080 ;margin-left: 10px;">400 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="company-img">
+                            <img src="./img/Companies/Infosys.jpg" alt="">
+                        </div>
+                        <div class="company-content">
+                            <strong>Infosys</strong>
+                            <span>IT Services & Consulting</span>
+                            <span style="margin-top: 10px;color: #808080;">3000+ employees</span>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <p style="float: right;color:#808080 ;">400 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="company-img">
+                            <img src="./img/Companies/IBM.jpg" alt="">
+                        </div>
+                        <div class="company-content">
+                            <strong>IBM</strong>
+                            <span>IT Services & Consulting</span>
+                            <span style="margin-top: 10px;color: #808080;">3000+ employees</span>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <p style="float: right;color:#808080 ;">400 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Other Companies -->
+    <div id="review-titles">
+        <div>
+            <h3 align="center" style="font-weight: 600;color: #15163a;">Other Companies</h3>
+        </div>
+    </div>
+    <!-- Reviews -->
+    <section id="reviews">
+        <div class="review-container">
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="company-img">
+                            <img src="./img/Companies/Tata.png" alt="">
+                        </div>
+                        <div class="company-content">
+                            <strong>Tata Consultancy</strong>
+                            <span>IT Services & Consulting</span>
+                            <span style="margin-top: 10px;color: #808080;">10000+ employees</span>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <p style="float: right;color:#808080 ;">900+ reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="company-img">
+                            <img src="./img/Companies/Cognizant.jpg" alt="">
+                        </div>
+                        <div class="company-content">
+                            <strong>Cognizant</strong>
+                            <span>IT Services & Consulting</span>
+                            <span style="margin-top: 10px;color: #808080;">10000+ employees</span>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <p style="float: right;color:#808080 ;">800+ reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="company-img">
+                            <img src="./img/Companies/Wipro.jpg" alt="">
+                        </div>
+                        <div class="company-content">
+                            <strong>Wipro</strong>
+                            <span>IT Services & Consulting</span>
+                            <span style="margin-top: 10px;color: #808080;">8000+ employees</span>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <p style="float: right;color:#808080 ;">700 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="company-img">
+                            <img src="./img/Companies/Byju's.jpg" alt="">
+                        </div>
+                        <div class="company-content">
+                            <strong>Byju's</strong>
+                            <span>Education</span>
+                            <span style="margin-top: 10px;color: #808080;">5000+ employees</span>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <p style="float: right;color:#808080 ;margin-left: 10px;">400 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="company-img">
+                            <img src="./img/Companies/Infosys.jpg" alt="">
+                        </div>
+                        <div class="company-content">
+                            <strong>Infosys</strong>
+                            <span>IT Services & Consulting</span>
+                            <span style="margin-top: 10px;color: #808080;">3000+ employees</span>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <p style="float: right;color:#808080 ;">400 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review-box">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="company-img">
+                            <img src="./img/Companies/IBM.jpg" alt="">
+                        </div>
+                        <div class="company-content">
+                            <strong>IBM</strong>
+                            <span>IT Services & Consulting</span>
+                            <span style="margin-top: 10px;color: #808080;">3000+ employees</span>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                <p style="float: right;color:#808080 ;">400 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <br><br>
+
+    <footer>
+        <!-- Footer -->
+        <div class="footer-area footer-bg footer-padding">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <div class="single-footer-caption mb-30">
+                                <div class="footer-tittle">
+                                    <h4>About Us</h4>
+                                    <hr style="width: 230px;">
+                                    <div class="footer-pera">
+                                        <p>Finds a job and achieve success and a high salary is not the value. But your
+                                            work is most
+                                            important your
+                                            achieve success.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Contact Info</h4>
+                                <hr style="width: 230px;">
+                                <p><span style="font-weight: 600;">Address :</span> Ahmedabad, Gujarat, India.</p>
+                                <p><span style="font-weight: 600;">Phone :</span> +91 1234567890</p>
+                                <p><span style="font-weight: 600;">E-mail : </span><a href="#">Placemento@gmail.com</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5" id="implinks">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Important Link</h4>
+                                <hr style="width: 230px;">
+                                <p><a href="#">About Us</a><br>
+                                    <a href="#">Contact Us</a><br>
+                                    <a href="#">Services</a><br>
+                                    <a href="#">News & Blogs</a><br>
+                                    <a href="#">Our Features</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Newsletter</h4>
+                                <hr style="width: 230px;">
+                                <div class="footer-pera footer-pera2">
+                                    <p>Subscribe newsletter to get updates about new jobs.</p>
+                                    <div class="footer-form">
+                                        <form>
+                                            <input type="email" name="email" placeholder="Email Address">
+                                            <div class="form-icon">
+                                                <a href="#">Send</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copy-right">
+            <p>
+                Copyright © 2021, Placemento | All rights reserved.
+            </p>
+        </div>
+        <!-- Footer -->
+    </footer>
+    <script>
+        let menuToggle = document.querySelector('.menuToggle');
+        let navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function () {
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
