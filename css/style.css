@@ -81,6 +81,11 @@ header .logo img {
   transition: 0.5s all ease;
 }
 
+#user-icon img {
+  border-radius: 50%;
+  height: 38px;
+}
+
 .group .navigation #logout {
   color: #15163a;
   background-color: #9198fd;
@@ -331,9 +336,16 @@ header .logo img {
   .group ul.navigation li a {
     font-size: 1.5em;
   }
+  .group .action {
+    margin-left: -3px;
+  }
   .group .action li {
-    margin-left: -17px;
-    padding-right: 4px;
+    margin-left: -15px;
+    padding-right: 3px;
+  }
+  #user-icon img {
+    height: 31px;
+    margin-top: -8%;
   }
   .group .action li a {
     font-size: 1.3rem;
